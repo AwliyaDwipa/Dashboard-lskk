@@ -1,0 +1,170 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.2);
+}
+.sidebar{
+    width: 155px;
+    height: 95vh;
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 9999;
+}
+.sidebar h1{
+    margin-bottom: 15px;
+}
+.sidebar a{
+    margin: 10px 0;
+    font-size: 20px;
+    padding: 2px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+.sidebar a:hover{
+    background-color: rgb(204, 204, 204);
+    color: rgb(0, 0, 0);
+    transition: 0.2s;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.navbar input{
+    width: 300px;
+    height: 35px;
+    display: block;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 10px 10px 10px 33px;
+    font-weight: bold;
+    background-image: url(../image/search.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+.dropdown{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 0 40px;
+    padding: 0 20px;
+}
+.dropdown i{
+    font-size: 30px;
+    padding: 5px;
+    margin-left: 10px;
+    color: black;
+}
+.dropdown-content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 100px;
+    background-color: white;
+    line-height: 30px;
+    padding: 10px;
+    border-radius: 10px ;
+    display: none;
+}
+.dropdown-content a{
+    color: black;
+    padding: 20px 0;
+    font-weight: bold;
+}
+.dropdown:hover .dropdown-content{
+    display: inline-block;
+}
+.sambutan h1{
+    position: absolute;
+    top: 80px;
+    left: 300px;
+    font-size: 50px;
+    font-weight: bolder ;
+}
+.content-admin{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    width: max-content;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+.content-admin h1{
+    margin: 20px 0;
+    font-size: 40px;
+}
+.content-admin table{
+    width: 1000px;
+    text-align: center;
+    height: 300px;
+}
+.content-admin thead th{
+    font-size: 25px;
+    background-color: rgba(128, 0, 128, 0.607);
+}
+.content-admin tr td{
+    font-size: 15px;
+    font-weight: 800;
+}
+.content-admin tr td a {
+    color: black;
+}
+.content-admin td i{
+    font-size: 20px;
+    margin: 8px;
+}
+.content{
+    position: absolute;
+    top:150px;
+    left: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.4s;
+}
+.card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.data ul{
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 20px;
+}

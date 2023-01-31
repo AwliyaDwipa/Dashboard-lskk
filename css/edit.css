@@ -1,0 +1,114 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;
+}
+body{
+    background: linear-gradient(326deg, #7286D3 0%, #7743DB 65%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    overflow-y: hidden;
+}
+.data{
+   max-width: 500px;
+    height: auto;
+    background-color: #7286D3;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.data h1{
+    margin-bottom: 20px;
+}
+.nama h3{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.nama input{
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.kota h3{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.kota input{
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.alamat h3{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.alamat input{
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.tgl-lahir h3{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.tgl-lahir input{
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.status{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
+.status h3{
+    margin-right: 10px;
+}
+.status input{
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.status label{
+    font-weight: bold;
+}
+.data button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+.data a{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
